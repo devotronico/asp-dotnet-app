@@ -4,9 +4,9 @@ namespace test_2.Controllers
 {
     public class CoursesController : Controller
     {
-        public IActionResult List()
+        public IActionResult Index()
         {
-            return Content("LISTA DI CORSI");
+            return View();
         }
 
         public IActionResult Details(int id)

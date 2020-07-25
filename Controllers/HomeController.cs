@@ -6,7 +6,7 @@ namespace test_2.Controllers
     {
         public IActionResult Index()
         {
-            return Content("Home");
+            return View();
         }
     }
 }

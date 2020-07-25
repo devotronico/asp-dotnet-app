@@ -36,7 +36,7 @@ namespace test_2
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}"); /// /
-                endpoints.MapControllerRoute("default", "{controller=Courses}/{action=List}/{id?}"); /// /Courses/Details/5
+                endpoints.MapControllerRoute("default", "{controller=Courses}/{action=Index}/{id?}"); /// /Courses/Details/5
                 endpoints.MapControllerRoute("default", "{controller=Courses}/{action=Details}/{id}"); /// /Courses/Details/5
             });
         }
