@@ -5,4 +5,7 @@
     <RootNamespace>test_2</RootNamespace>
   </PropertyGroup>
 
+  <!-- <PackageReference Include="Westwind.AspnetCore.LiveReload" Version="0.2.5" /> -->
+
+
 </Project>
