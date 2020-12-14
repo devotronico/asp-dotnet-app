@@ -1,0 +1,22 @@
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  padding: 0 8px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.nav-item:hover {
+  color: yellow;
+}
+
+.active-nav-item {
+  color: blue;
+}

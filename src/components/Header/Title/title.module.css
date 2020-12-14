@@ -1,0 +1,23 @@
+.boxTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 50px;
+  height: 120px;
+  padding: 20px 90px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 70px;
+  margin: 5px 0 0 0;
+}
+
+.motto {
+  color: #fff;
+  font-weight: bold;
+}

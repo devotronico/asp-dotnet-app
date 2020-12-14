@@ -1,0 +1,23 @@
+.marchi {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 8px; */
+  /* background-color: red; */
+}
+
+.marchiBox {
+  width: 600px;
+  /* background-color: green; */
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 100px; */
+}
+
+img {
+  margin: 0;
+}

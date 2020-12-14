@@ -1,0 +1,19 @@
+.flag {
+  display: flex;
+  margin: 0 auto 20px;
+  width: 1020px;
+  height: 10px;
+}
+
+div.left {
+  flex: 1;
+  background-color: #000000;
+}
+div.middle {
+  flex: 1;
+  background-color: #dd0000;
+}
+div.right {
+  flex: 1;
+  background-color: #ffce00;
+}
